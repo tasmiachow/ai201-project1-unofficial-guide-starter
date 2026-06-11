@@ -57,3 +57,21 @@ Whether you're biking around the loop, sitting lakeside at sunset, or simply str
 
 
 ## General Reviews
+
+Very beautiful, spacious parks for relaxing and unwinding.
+
+What a fun place to be especially on the weekend, when it's busting with life from romantic picnics to youth sports to farmers market. Activities galore. The trees were magnificent with leaves changing colors.
+Playground
+There are several playgrounds in the park, all are somewhat different but fun for all ag s.
+Restrooms
+There are bathrooms at the picnic house, at the center of the park and at some playgrounds.
+Dog-friendliness
+Lots of dogs can be seen walking and playing throughout the day. There is even a swimming place for them. Fun to watch.
+Picnic area
+There are tables and picnic accommodations throughout the park.
+
+A nice getaway from the city in the middle of Brooklyn. I like it more than Central Park because it draws more neighborhood people than tourists and it's forest paths let you find quietude.
+Playground
+Large playgrounds where people even play baseball.
+Dog-friendliness
+It is dog friendly. It also has a little pond for dogs to play in and cool off in summer heat
