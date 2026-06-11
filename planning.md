@@ -22,15 +22,15 @@ I chose to make a RAG about top 3 NYC parks. The reason for this, is to get hype
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
 | 1 | documents/central_park_map.md | Highly structured factual profiles outlining major geographic points of interest, architectural monuments, and lawn entry points. | <https://www.centralparknyc.org/locations> |
-| 2 | documents/central_parl_calendar.md | Highly structured factual events taking place in June 2026 | <https://www.centralparknyc.org/calendar> |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 2 | documents/central_park_calendar.md | Highly structured factual events taking place in June 2026 | <https://www.centralparknyc.org/calendar> |
+| 3 | documents/central_park_quiet_zones.md | Factual breakdown of designated quiet zones, including rules, hours, and nearby facilities for peaceful areas like the Ramble and Sheep Meadow. | <https://www.centralparknyc.org/locations> |
+| 4 | documents/central_park_reviews.md | Conversational crowd-sourced feedback, sentiment analysis, and practical local advice about Central Park's crowds, loops, and restroom conditions. |Google Maps Reviews |
+| 5 | documents/prospect_park_map.md | Structural directory outlining landmarks, points of interest, playgrounds, food carts, and official facilities throughout Prospect Park. | <https://www.prospectpark.org/visit-the-park/park-map/> |
+| 6 | documents/prospect_park_calendar.md | Chronological guide to scheduled public events, activities, seasonal food festivals, and venue rentals in Prospect Park for June 2026. | <https://www.prospectpark.org/events/> |
+| 7 | documents/prospect_park_reviews.md | Conversational community perspectives, running tips, and blunt visitor reviews regarding Brooklyn’s backyard crowd levels and park upkeep. | Google Maps and TripAdvisor |
+| 8 | documents/central_vs_prospect.md | Comparative running log and community dialogue evaluating the loop layout, topography, shade coverage, and athlete subcultures of both parks. | <https://www.reddit.com/r/RunNYC/comments/1dihsy9/running_in_central_park_vs_prospect_park/> |
+| 9 | documents/ny_times.md | An archived editorial debate piece featuring deep analysis, historic design context, and contrasting local arguments on the architectural brilliance of both parks. | <https://www.nytimes.com/2010/07/11/nyregion/11parks.html> |
+| 10 | documents/prospect_and_central_zoo.md | Focused data compiling information regarding the wildlife facilities and visitor spaces inside the dedicated park zoos. | <https://prospectparkzoo.com/> <https://centralparkzoo.com/> |
 
 ---
 
@@ -41,11 +41,18 @@ I chose to make a RAG about top 3 NYC parks. The reason for this, is to get hype
      numbers fit the structure of your documents.
      A review-heavy corpus warrants different chunking than a long FAQ. -->
 
-**Chunk size:**
 
-**Overlap:**
 
-**Reasoning:**
+**Chunk size:** 300 tokens (approximately 1,200 characters)
+
+**Overlap:** 50 tokens (approximately 200 characters)
+
+**Reasoning:** 
+Our corpus is highly heterogeneous, split symmetrically between two distinct document structures: highly structured, factual directories (such as `central_park_map.md` and `prospect_park_calendar.md`) and dense, conversational, multi-paragraph human reviews (such as `central_park_reviews.md` and `ny_times.md`). A uniform chunk size of 300 tokens with a 50-token overlap balances the unique retrieval needs of both archetypes.
+
+1. **Handling Conversational Reviews & Narratives:** Public reviews from Reddit and Yelp are deeply contextual and often switch topics rapidly within a single paragraph (e.g., transitioning from a compliment about skyline views immediately into a warning about long restroom lines). A smaller chunk size (like 100 tokens) would sever these complaints from their spatial context, causing the RAG system to lose track of *which* specific park or landmark the user is critiquing. A 300-token window ensures that the entire user thought, sentiment, and specific location markers remain bound together in a single vector embedding.
+2. **Preserving Structured Bullet Points:** For the programmatic files containing calendars and facility directories, the layout consists of compact, isolated bulleted blocks detailing event titles, times, and descriptions. A 300-token limit is wide enough to encapsulate 2 to 3 complete, consecutive event blocks or landmark profiles without awkwardly cutting off midway through an operational hours list.
+3. **The Importance of the 50-Token Overlap:** The 50-token sliding window acts as a fail-safe against the "edge-case splitting problem." If an important piece of insider advice—such as a specific safety tip or crowd-evasion maneuver—happens to cross the boundary between two chunks, the overlap guarantees that the surrounding context is duplicated across both vectors, ensuring high semantic search relevance no matter where the text-splitter slices the document.
 
 ---
 
