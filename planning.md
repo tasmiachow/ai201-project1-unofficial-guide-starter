@@ -10,6 +10,7 @@
 ## Domain
 
 <!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
+I chose to make a RAG about top 3 NYC parks. The reason for this, is to get hyper specific reviews, insider information, and community events about the most visited green spaces in NYC. This information can help people decide where to escape from the crowds, engage in physical activity inside these parks, and spend less time researching. 
 
 ---
 
@@ -20,8 +21,8 @@
 
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
-| 1 | | | |
-| 2 | | | |
+| 1 | documents/central_park_map.md | Highly structured factual profiles outlining major geographic points of interest, architectural monuments, and lawn entry points. | <https://www.centralparknyc.org/locations> |
+| 2 | documents/central_parl_calendar.md | Highly structured factual events taking place in June 2026 | <https://www.centralparknyc.org/calendar> |
 | 3 | | | |
 | 4 | | | |
 | 5 | | | |
