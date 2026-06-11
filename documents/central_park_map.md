@@ -544,3 +544,28 @@ Diana Ross Playground, located near Central Park’s West 81st Street entrance, 
 * **Location:** West Side (79th Street Boundary)
 * **Description:** A massive historic cultural landmark bordering the western side of the park, dedicated to scientific exploration and natural history exhibitions.
 
+
+## Central Park Dining 
+
+### Dining- Le Pain Quotidien at Mineral Springs
+West Side at 69th Street
+Hungry Park-goers can head to the north side of Sheep Meadow to find both sweet and savory fare at Le Pain Quotidien.
+
+### Dining- Dancing Crane Cafe at the Zoo
+East Side at 64th Street
+Located near the Central Park Zoo, the Dancing Crane Cafe serves hot and cold meals, snacks, and beverages.
+
+### Dining- Wollman Rink
+East Side at 63rd Street
+
+### Dining-Tavern on the Green
+West Side at 66th Street
+
+### Dining - Le Pain Quotidien at Mineral Springs
+West Side at 69th Street
+
+### Dining - Kerbs Boathouse
+East Side at 74th Street
+
+### Davis Center at the Harlem Meer
+East Side between 106th and 108th
