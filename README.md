@@ -15,7 +15,7 @@
      course descriptions don't reflect teaching style, exam difficulty, or workload." -->
 
 ---
-The domain this RAG hopes to cover is pulling relevant information for Prospect and Central Park, here in NYC. And also compare the two iconic parks with real articles, reviews and event data.
+The domain this RAG covers is information for Prospect Park and Central Park, here in NYC. It also compare the two iconic parks with real articles, new yorker reviews and event data.
 This knowledge is highly valuable to help plan people's day out to one of the two parks in NYC. It helps people avoid crowds and tourist traps, ideally with more documents I would continue to expand to NYC top 5 Parks and even more. 
 Example: "Which park is better to run in Central park or Prospect Park?" -- useful because offical park website won't mention the horse poo in Central Park.
 
