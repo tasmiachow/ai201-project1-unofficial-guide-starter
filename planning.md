@@ -23,7 +23,7 @@ I chose to make a RAG about top 3 NYC parks. The reason for this, is to get hype
 |---|--------|-------------|-----------------|
 | 1 | documents/central_park_map.md | Highly structured factual profiles outlining major geographic points of interest, architectural monuments, and lawn entry points. | <https://www.centralparknyc.org/locations> |
 | 2 | documents/central_park_calendar.md | Highly structured factual events taking place in June 2026 | <https://www.centralparknyc.org/calendar> |
-| 3 | documents/central_park_quiet_zones.md | Factual breakdown of designated quiet zones, including rules, hours, and nearby facilities for peaceful areas like the Ramble and Sheep Meadow. | <https://www.centralparknyc.org/locations> |
+| 3 | documents/central_park_quiet_zones.md | Factual breakdown of designated quiet zones, including rules, hours, and nearby facilities for peaceful areas like the Ramble and Sheep Meadow. | <https://www.centralparknyc.org/locations?filters=quiet-zone> |
 | 4 | documents/central_park_reviews.md | Conversational crowd-sourced feedback, sentiment analysis, and practical local advice about Central Park's crowds, loops, and restroom conditions. |Google Maps Reviews |
 | 5 | documents/prospect_park_map.md | Structural directory outlining landmarks, points of interest, playgrounds, food carts, and official facilities throughout Prospect Park. | <https://www.prospectpark.org/visit-the-park/park-map/> |
 | 6 | documents/prospect_park_calendar.md | Chronological guide to scheduled public events, activities, seasonal food festivals, and venue rentals in Prospect Park for June 2026. | <https://www.prospectpark.org/events/> |
@@ -31,6 +31,7 @@ I chose to make a RAG about top 3 NYC parks. The reason for this, is to get hype
 | 8 | documents/central_vs_prospect.md | Comparative running log and community dialogue evaluating the loop layout, topography, shade coverage, and athlete subcultures of both parks. | <https://www.reddit.com/r/RunNYC/comments/1dihsy9/running_in_central_park_vs_prospect_park/> |
 | 9 | documents/ny_times.md | An archived editorial debate piece featuring deep analysis, historic design context, and contrasting local arguments on the architectural brilliance of both parks. | <https://www.nytimes.com/2010/07/11/nyregion/11parks.html> |
 | 10 | documents/prospect_and_central_zoo.md | Focused data compiling information regarding the wildlife facilities and visitor spaces inside the dedicated park zoos. | <https://prospectparkzoo.com/> <https://centralparkzoo.com/> |
+| 11 | documents/zoo_vs_zoo.md | Google reviews 
 
 ---
 
@@ -64,7 +65,7 @@ Our corpus is highly heterogeneous, split symmetrically between two distinct doc
      would you weigh in choosing a different embedding model — context length, multilingual
      support, accuracy on domain-specific text, latency? -->
 
-**Embedding model:**
+**Embedding model:** all-MiniLM-L6-v2
 
 **Top-k:**
 

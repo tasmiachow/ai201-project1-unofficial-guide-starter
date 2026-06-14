@@ -1,4 +1,14 @@
+# Source: Central Park Calendar
+# URL: https://www.centralparknyc.org/calendar
+# Target Park: Central Park
+
+
 ## Central Park Event & Tour Schedule
+
+### Special Events
+Explore Central Park with the Conservancy as Your Guide
+The opportunities to engage with Central Park are as diverse as the City it calls home. The Conservancy's year-round lineup includes daily programs, seasonal and holiday events, educational opportunities, and ways to give back to your 843-acre backyard.
+If you’re planning a field day, game tournament, birthday party, or any other type of event that includes activities for twenty people or more, you’ll need to request a special event permit from NYC Parks.
 
 ### Thursday, June 11
 * **Event:** Shaping Public Memory: Lessons from Columbus, LA, and NYC

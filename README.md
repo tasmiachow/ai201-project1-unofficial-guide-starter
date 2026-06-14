@@ -93,8 +93,8 @@
 
 | # | Question | Expected answer | System response (summarized) | Retrieval quality | Response accuracy |
 |---|----------|-----------------|------------------------------|-------------------|-------------------|
-| 1 | | | | | |
-| 2 | | | | | |
+| 1 | | |According to the Reddit Review Conglomeration, Prospect Park is considered a more chill environment for runners, with minimal tourists and no horse carriages or poo to worry about, making it a potentially better option for running, especially during early evening hours [Source: Reddit Review Conglomeration, https://www.reddit.com/r/RunNYC/comments/1dihsy9/running_in_central_park_vs_prospect_park/]. However, it's also stated that neither park is better than the other for running. To provide a more definitive answer, could you please clarify what specific factors you consider most important when choosing a park for running (e.g. scenery, safety, crowd level)? | Relevant | Accurate |
+| 2 | what can I do in prospect park? | | According to the Yelp, Google Maps, and TripAdvisor Review Conglomeration, in Prospect Park, you can walk on scenic paths, rent boats on the lake, visit playgrounds and open spaces for kids, have a picnic, and use the dog runs as it is very dog-friendly [Source: Yelp, Google Maps, and TripAdvisor Review Conglomeration]. Additionally, according to Prospect Park Events + Activities, the park offers party rooms, picnic tables, and a splash pad [Source: Prospect Park Events + Activities].| | |
 | 3 | | | | | |
 | 4 | | | | | |
 | 5 | | | | | |
