@@ -13,24 +13,11 @@ Time	Event
 5:00 PM	Zoo Closes
 
 ### Tickets at Prospect Park Zoo
-Zoo Admission
-All visitors must have a date-specific ticket. Every guest, every day.
-
-Adult (13 & over)
-
-$10.95
-
-Senior (65 & over)
-
-$8.95
-
-Child (3 - 12)
-
-$7.95
-
-Child (2 & under)
-
-FREE
+* **Zoo Admission Requirement:** All visitors must have a date-specific ticket. Every guest, every day.
+* **Adult (13 & over):** $10.95
+* **Senior (65 & over):** $8.95
+* **Child (3 - 12):** $7.95
+* **Child (2 & under):** FREE
 
 
 Member Admission
@@ -55,24 +42,10 @@ Time	Event
 5:00 PM	Zoo Closes
 
 ### Tickets at Central Park Zoo
-Zoo Admission
-Admission includes entrance to the Main zoo, Tisch Children's Zoo, and one visit to the 4-D Theater. All visitors must have a date-specific ticket. Every guest, every day.
-
-Adult (13 & over)
-
-$22.95
-
-Senior (65 & over)
-
-$18.95
-
-Child (3 - 12)
-
-$16.95
-
-Child (2 & under)
-
-FREE
+* **Adult (13 & over):** $22.95
+* **Senior (65 & over):** $18.95
+* **Child (3 - 12):** $16.95
+* **Child (2 & under):** FREE
 
 
 Member Admission

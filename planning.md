@@ -44,16 +44,12 @@ I chose to make a RAG about top 3 NYC parks. The reason for this, is to get hype
 
 
 
-**Chunk size:** 300 tokens (approximately 1,200 characters)
+**Chunk size:** 300 characters
 
-**Overlap:** 50 tokens (approximately 200 characters)
+**Overlap:** 50 characters
 
 **Reasoning:** 
 Our corpus is highly heterogeneous, split symmetrically between two distinct document structures: highly structured, factual directories (such as `central_park_map.md` and `prospect_park_calendar.md`) and dense, conversational, multi-paragraph human reviews (such as `central_park_reviews.md` and `ny_times.md`). A uniform chunk size of 300 tokens with a 50-token overlap balances the unique retrieval needs of both archetypes.
-
-1. **Handling Conversational Reviews & Narratives:** Public reviews from Reddit and Yelp are deeply contextual and often switch topics rapidly within a single paragraph (e.g., transitioning from a compliment about skyline views immediately into a warning about long restroom lines). A smaller chunk size (like 100 tokens) would sever these complaints from their spatial context, causing the RAG system to lose track of *which* specific park or landmark the user is critiquing. A 300-token window ensures that the entire user thought, sentiment, and specific location markers remain bound together in a single vector embedding.
-2. **Preserving Structured Bullet Points:** For the programmatic files containing calendars and facility directories, the layout consists of compact, isolated bulleted blocks detailing event titles, times, and descriptions. A 300-token limit is wide enough to encapsulate 2 to 3 complete, consecutive event blocks or landmark profiles without awkwardly cutting off midway through an operational hours list.
-3. **The Importance of the 50-Token Overlap:** The 50-token sliding window acts as a fail-safe against the "edge-case splitting problem." If an important piece of insider advice—such as a specific safety tip or crowd-evasion maneuver—happens to cross the boundary between two chunks, the overlap guarantees that the surrounding context is duplicated across both vectors, ensuring high semantic search relevance no matter where the text-splitter slices the document.
 
 ---
 
@@ -67,9 +63,9 @@ Our corpus is highly heterogeneous, split symmetrically between two distinct doc
 
 **Embedding model:** all-MiniLM-L6-v2
 
-**Top-k:**
+**Top-k:** 5 
 
-**Production tradeoff reflection:**
+**Production tradeoff reflection:** 
 
 ---
 
@@ -96,9 +92,9 @@ Our corpus is highly heterogeneous, split symmetrically between two distinct doc
      Consider: noisy or inconsistent documents, missing source attribution, off-topic
      retrieval, chunks that split key information across boundaries. -->
 
-1.
+1. missing source attribution
 
-2.
+2.  chunks that split key information across boundaries.
 
 ---
 
@@ -111,6 +107,7 @@ Our corpus is highly heterogeneous, split symmetrically between two distinct doc
      You'll use this diagram as context when prompting AI tools to implement each stage. -->
 
 ---
+Ingestion → Chunking → Embedding + Vector Store → Retrieval → Generation
 
 ## AI Tool Plan
 
