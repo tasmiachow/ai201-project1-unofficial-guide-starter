@@ -111,28 +111,13 @@ Central Park and Prospect Park welcome millions of international tourists annual
 
 | # | Question | Expected answer | System response (summarized) | Retrieval quality | Response accuracy |
 |---|----------|-----------------|------------------------------|-------------------|-------------------|
-| 1 | Is prospect park or central Park better to run in? | |According to the Reddit Review Conglomeration, Prospect Park is considered a more chill environment for runners, with minimal tourists and no horse carriages or poo to worry about, making it a potentially better option for running, especially during early evening hours [Source: Reddit Review Conglomeration, https://www.reddit.com/r/RunNYC/comments/1dihsy9/running_in_central_park_vs_prospect_park/]. However, it's also stated that neither park is better than the other for running. To provide a more definitive answer, could you please clarify what specific factors you consider most important when choosing a park for running (e.g. scenery, safety, crowd level)? | Relevant | Accurate |
-| 2 | what can I do in prospect park? | | According to the Yelp, Google Maps, and TripAdvisor Review Conglomeration, in Prospect Park, you can walk on scenic paths, rent boats on the lake, visit playgrounds and open spaces for kids, have a picnic, and use the dog runs as it is very dog-friendly [Source: Yelp, Google Maps, and TripAdvisor Review Conglomeration]. Additionally, according to Prospect Park Events + Activities, the park offers party rooms, picnic tables, and a splash pad [Source: Prospect Park Events + Activities].| Relevant | Accurate |
-| 3 | How many quiet zones are there in central park? | 8 according to cental_park_quiet_zones.md | | Relevant | Partially accurate |
-| 4 | What are the ticket prices for the Central Park Zoo? |* **Adult (13 & over):** $22.95
-* **Senior (65 & over):** $18.95
-* **Child (3 - 12):** $16.95
-* **Child (2 & under):** FREE | The provided information does not contain the ticket prices for the Central Park Zoo. However, it does mention the ticket prices for the Prospect Park Zoo and a price of $22.95 for adults at one of the zoos in 2026, but it is not specified which zoo. [Source: Prospect Park Zoo vs Central Park Zoo]
-
-To answer your question accurately, I would need more information about the ticket prices at the Central Park Zoo. Can you please provide more context or clarify which specific information you are looking for regarding the Central Park Zoo ticket prices?| Relevant | Partially Accurate |
-| 5 | What are the ticket prices for the Prospect Park Zoo? | According to the provided text, the ticket prices for the Prospect Park Zoo are as follows:
-
-Adult (13 & over): $10.95
-Senior (65 & over): $8.95
-Child (3 - 12): $7.95
-Child (2 & under): FREE
-[Source: Prospect Park Zoo and Central Park Zoo]| According to the provided text, the ticket prices for the Prospect Park Zoo are as follows:
-
-Adult (13 & over): $10.95
-Senior (65 & over): $8.95
-Child (3 - 12): $7.95
-Child (2 & under): FREE
-[Source: Prospect Park Zoo and Central Park Zoo] | Relevant | Accurate |
+| ID | Question | Expected Answer / Context | Chatbot Response | Relevance | Accuracy |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **1** | Is Prospect Park or Central Park better to run in? | *N/A* | According to the Reddit Review Conglomeration, Prospect Park is considered a more chill environment for runners, with minimal tourists and no horse carriages or poo to worry about, making it a potentially better option for running, especially during early evening hours [Source: Reddit Review Conglomeration, https://www.reddit.com/r/RunNYC/comments/1dihsy9/running_in_central_park_vs_prospect_park/]. However, it's also stated that neither park is better than the other for running. To provide a more definitive answer, could you please clarify what specific factors you consider most important when choosing a park for running (e.g. scenery, safety, crowd level)? | Relevant | Accurate |
+| **2** | What can I do in Prospect Park? | *N/A* | According to the Yelp, Google Maps, and TripAdvisor Review Conglomeration, in Prospect Park, you can walk on scenic paths, rent boats on the lake, visit playgrounds and open spaces for kids, have a picnic, and use the dog runs as it is very dog-friendly [Source: Yelp, Google Maps, and TripAdvisor Review Conglomeration]. Additionally, according to Prospect Park Events + Activities, the park offers party rooms, picnic tables, and a splash pad [Source: Prospect Park Events + Activities]. | Relevant | Accurate |
+| **3** | How many quiet zones are there in Central Park? | 8 according to central_park_quiet_zones.md | *[Blank or Flawed Initial Retrieval Step Output]* | Relevant | Partially accurate |
+| **4** | What are the ticket prices for the Central Park Zoo? | Adult (13 & over): $22.95<br>Senior (65 & over): $18.95<br>Child (3 - 12): $16.95<br>Child (2 & under): FREE | The provided information does not contain the ticket prices for the Central Park Zoo. However, it does mention the ticket prices for the Prospect Park Zoo and a price of $22.95 for adults at one of the zoos in 2026, but it is not specified which zoo. [Source: Prospect Park Zoo vs Central Park Zoo]<br><br>To answer your question accurately, I would need more information about the ticket prices at the Central Park Zoo. Can you please provide more context or clarify which specific information you are looking for regarding the Central Park Zoo ticket prices? | Relevant | Partially Accurate |
+| **5** | What are the ticket prices for the Prospect Park Zoo? | *N/A* | According to the provided text, the ticket prices for the Prospect Park Zoo are as follows:<br><br>Adult (13 & over): $10.95<br>Senior (65 & over): $8.95<br>Child (3 - 12): $7.95<br>Child (2 & under): FREE<br>[Source: Prospect Park Zoo and Central Park Zoo] | Relevant | Accurate |
 
 **Retrieval quality:** Relevant / Partially relevant / Off-target  
 **Response accuracy:** Accurate / Partially accurate / Inaccurate
