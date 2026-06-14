@@ -1,4 +1,4 @@
-# The Unofficial Guide — Project 1
+# The Unofficial Guide — ParkBot
 
 > **How to use this template:**
 > Complete each section *after* you've built and tested the corresponding part of your system.
@@ -15,6 +15,9 @@
      course descriptions don't reflect teaching style, exam difficulty, or workload." -->
 
 ---
+The domain this RAG hopes to cover is pulling relevant information for Prospect and Central Park, here in NYC. And also compare the two iconic parks with real articles, reviews and event data.
+This knowledge is highly valuable to help plan people's day out to one of the two parks in NYC. It helps people avoid crowds and tourist traps, ideally with more documents I would continue to expand to NYC top 5 Parks and even more. 
+Example: "Which park is better to run in Central park or Prospect Park?" -- useful because offical park website won't mention the horse poo in Central Park.
 
 ## Document Sources
 
