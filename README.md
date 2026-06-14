@@ -156,6 +156,10 @@ Central Park and Prospect Park welcome millions of international tourists annual
 
 **One way your implementation diverged from the spec, and why:** I ended up changing my chunking strategy from what was taught in the lab because my paragraphs of information were a lot more dense. So I increased the char count from 300 to 1200. The smaller 300-character window was aggressively fracturing factual lists, structured tables, and event calendars mid-sentence, which caused the system to completely lose its core context. Moving to 1200 characters with a 200-character overlap kept these high-density blocks unified, preventing data loss and providing a much more accurate retrieval pool for the language model.
 
+
+---
+## DEMO 
+<img src="/rag.gif" width="600" alt="Project Demo">
 ---
 
 ## AI Usage
