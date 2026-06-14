@@ -16,8 +16,8 @@
 
 ---
 The domain this RAG covers is information for Prospect Park and Central Park, here in NYC. It also compare the two iconic parks with real articles, new yorker reviews and event data.
-This knowledge is highly valuable to help plan people's day out to one of the two parks in NYC. It helps people avoid crowds and tourist traps, ideally with more documents I would continue to expand to NYC top 5 Parks and even more. 
-Example: "Which park is better to run in Central park or Prospect Park?" -- useful because offical park website won't mention the horse poo in Central Park.
+This knowledge is highly valuable to help plan people's day out to one of the two parks in NYC. It helps people avoid crowds and tourist traps. Ideally with more documents I would continue to expand to NYC top 5 Parks, top 10 parks, etc. 
+Example: "Which park is better to run in Central park or Prospect Park?" -- useful because offical park website won't mention the horse poo in Prospect Park.
 
 ## Document Sources
 
